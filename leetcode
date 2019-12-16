@@ -1,3 +1,8 @@
+Sliding window:Q1176
+
+
+
+
 
 Q929 
 
@@ -70,3 +75,13 @@ Q53
  本质上是一个动态规划 
 
 设置一个指针在列表中移动，每个对这个指针之前的结果做出最有解，随着指针向后移动更新每次加上新东西和之前最优解的对比即可得到最终最优解 
+
+Q3. 
+method1
+Setting two pointers to present the two boundary of the longest substring.
+Using a non repeat list to store all the data.
+The right bondary move from left to right one by one, and if the right boundary didn't in the list, add it into the list.
+Else, if the right pointer in the lists, delete left pointer one by one until the right pointer didn't appears in the list.
+Attention, you should operate the list and the left pointer in the meanwhile.
+
+
