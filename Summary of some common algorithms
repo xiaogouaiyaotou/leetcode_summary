@@ -1,6 +1,16 @@
 -Greedy 
 -DP
+     1.Knapsack Problem
+     2.longest comman subsequence
+     3.Longest common substring
+     4.
 -Backtracking
 -Divide-and-conquer
 -Branch-and-bound
--Dijkstra's Algorithm
+
+
+Waiting for study:
+merge sort
+count sorting
+Dijkstra algorithm               -------shortest path
+Kruskal algorithm                -------Minimum Spanning Tree
