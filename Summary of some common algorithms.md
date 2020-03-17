@@ -38,3 +38,4 @@ Example
 ![](/img/heapsortstep23.png)
 #### final
 ![](/img/heapsortfinal.png)
+The total time complexity is O(nlogn)
