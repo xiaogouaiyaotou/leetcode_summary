@@ -37,5 +37,5 @@ Example
 #### c.Swapping the top element 8 with the bottom element 5 to get the second largest element 8
 ![](/img/heapsortstep23.png)
 #### final
-![](/img/heapsortfinal.png)
+![](/img/heapsortfinal.png)</br>
 The total time complexity is O(nlogn)
