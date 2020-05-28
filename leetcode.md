@@ -84,6 +84,13 @@ The right bondary move from left to right one by one, and if the right boundary 
 Else, if the right pointer in the lists, delete left pointer one by one until the right pointer didn't appears in the list.
 Attention, you should operate the list and the left pointer in the meanwhile.
 
-### Transfer from issue part
+## Transfer from issue part
+I will continue to read the summary from here. I wrote the summary in issue before, but I suddently found that it will not show your operation in the contirbution if you just modify in the issue part. So I plan to continue my summary from here
 
+### Q143. Reorder List
+Two method, onw way is I found it from Internet before long time ago, and it's not a routine operation, but i can be done this problem. You can copy the link node to a list, and it's very easy for you to do anything in the list. There solution should not be the acknowledge point that they want you to do. </br>
+Second, there are a a lot of skills you need to use for this problem. The general idea is divided into 3 points. </br>
+1. Dividing the linked list into two, one for first half, another for last half. Here, you should use the fast/slow pointer to achieve this operation. </br>
+2. Reversing the Second linked list. Here is examining the operation of reversing list. </br>
+3. Combining these two linked list. </br>
 
