@@ -93,4 +93,6 @@ Second, there are a a lot of skills you need to use for this problem. The genera
 1. Dividing the linked list into two, one for first half, another for last half. Here, you should use the fast/slow pointer to achieve this operation. </br>
 2. Reversing the Second linked list. Here is examining the operation of reversing list. </br>
 3. Combining these two linked list. </br>
+### Q148. Sort List
+We can find from the description that the time complexity should be O(n log n), this is going to be a sort problem. Based on the sort algorithm we know, the sort algorithm an O(n log n) time complexity has quicksort, merge sort, and heapsort. For there, we can use mergesort. First, we use fast/slow pointer to divide the link into two linked lists. Second, we sorted these two linked lists and then sort these two linked lists.
 
