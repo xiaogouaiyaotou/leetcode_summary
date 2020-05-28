@@ -84,4 +84,6 @@ The right bondary move from left to right one by one, and if the right boundary 
 Else, if the right pointer in the lists, delete left pointer one by one until the right pointer didn't appears in the list.
 Attention, you should operate the list and the left pointer in the meanwhile.
 
+### Transfer from issue part
+
 
