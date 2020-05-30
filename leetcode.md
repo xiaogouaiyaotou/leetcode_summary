@@ -95,4 +95,5 @@ Second, there are a a lot of skills you need to use for this problem. The genera
 3. Combining these two linked list. </br>
 ### Q148. Sort List
 We can find from the description that the time complexity should be O(n log n), this is going to be a sort problem. Based on the sort algorithm we know, the sort algorithm an O(n log n) time complexity has quicksort, merge sort, and heapsort. For there, we can use mergesort. First, we use fast/slow pointer to divide the link into two linked lists. Second, we sorted these two linked lists and then sort these two linked lists.
-
+### Q75. Sort Colors
+Because there is only three numbers, so we can set two pointers to do a record. One is for 0 another is for 2.
