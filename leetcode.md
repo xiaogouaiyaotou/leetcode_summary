@@ -97,3 +97,6 @@ Second, there are a a lot of skills you need to use for this problem. The genera
 We can find from the description that the time complexity should be O(n log n), this is going to be a sort problem. Based on the sort algorithm we know, the sort algorithm an O(n log n) time complexity has quicksort, merge sort, and heapsort. For there, we can use mergesort. First, we use fast/slow pointer to divide the link into two linked lists. Second, we sorted these two linked lists and then sort these two linked lists.
 ### Q75. Sort Colors
 Because there is only three numbers, so we can set two pointers to do a record. One is for 0 another is for 2.
+### q19. Remove Nth Node From End of List
+Very intersting problem, another types of double pointers. We can let the fast pointer run K-1 times at first, and then let the fast and slow pointer run togerther. When the fast pointer arrives the end, the slow pointer arrives the n-th node from the end o f list.
+
