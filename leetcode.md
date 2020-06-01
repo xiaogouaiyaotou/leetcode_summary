@@ -99,4 +99,7 @@ We can find from the description that the time complexity should be O(n log n), 
 Because there is only three numbers, so we can set two pointers to do a record. One is for 0 another is for 2.
 ### q19. Remove Nth Node From End of List
 Very intersting problem, another types of double pointers. We can let the fast pointer run K-1 times at first, and then let the fast and slow pointer run togerther. When the fast pointer arrives the end, the slow pointer arrives the n-th node from the end o f list.
-
+### Interview problem 62,The last number left in the circle
+No algorithmic skills,it's just a math problem. it can generalize the rules of the subject to a funtion :</br>
+f(n, m) = 0         (n = 1)</br>
+f(n, m) = [f(n-1, m) +m] % n  (n > 1)  </br>
