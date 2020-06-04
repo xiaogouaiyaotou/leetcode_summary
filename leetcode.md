@@ -103,3 +103,5 @@ Very intersting problem, another types of double pointers. We can let the fast p
 No algorithmic skills,it's just a math problem. it can generalize the rules of the subject to a funtion :</br>
 f(n, m) = 0         (n = 1)</br>
 f(n, m) = [f(n-1, m) +m] % n  (n > 1)  </br>
+### Q16. 3Sum Closest
+Two pointers. First we need to do a sort for the list. And let left pointer(L)=i+1, right pointer(R)=n-1. and do doop when L<R, there are cases to consider: 1. let sum=nums[i]+nums[L]+nums[R], if sum=target, return target. 2. If abs(sum-target)<abs(res-target), it shows sum is closer to the target, then update res. 3. if sum-target>0, it presents nums[R] is too big, we need to move R to leff. 4. if sum-target<0, it presents nums[L] is too small, move L to right.
