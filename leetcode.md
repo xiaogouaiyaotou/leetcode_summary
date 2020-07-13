@@ -108,3 +108,6 @@ Two pointers. First we need to do a sort for the list. And let left pointer(L)=i
 ### Q343 Integer Break
 Good question. We can sovle it by math method or DP. And I don't really understand the mathematical derivation. So I just represent DP method here.
 The function should be dp[i]=max(dp[i],dp[i-j]*j,(i-j)*j). Here, about dp[i-j] and (i-j), dp[i-1] includes the case that cut at least once in i-j, and i-j means only cut once at i-j. Because we need to know the optimal solution at each length then we can get the results by dp.
+
+### Q86.Partition List
+Using two linked list, one is for the node which is smaller than target, another is for the node bigger than target. And also, in this way, the sequence of these two lists is naturally in what you want. 
