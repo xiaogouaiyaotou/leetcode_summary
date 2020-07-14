@@ -111,3 +111,6 @@ The function should be dp[i]=max(dp[i],dp[i-j]*j,(i-j)*j). Here, about dp[i-j] a
 
 ### Q86.Partition List
 Using two linked list, one is for the node which is smaller than target, another is for the node bigger than target. And also, in this way, the sequence of these two lists is naturally in what you want. 
+
+### 15. 3Sum
+We can use three pointer is solve this problem. First we need to do a sort, this will cost O(nlogn).Then we set i,k in head and tail.One of the key point is not contain. duplicate triplets. 
